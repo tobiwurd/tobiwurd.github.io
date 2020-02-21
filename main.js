@@ -29,7 +29,7 @@ function addPostToList (file) {
 function loadHandler () {
   if (this.status === 200 && this.responseText != null) {
     var posts = JSON.parse(this.responseText)
-    posts.forEach(post => {
+    posts.reverse().forEach(post => {
       addPostToList(post.download_url)
     })
   } else {
