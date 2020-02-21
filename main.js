@@ -39,5 +39,5 @@ function handler () {
 
 var client = new XMLHttpRequest()
 client.onload = handler
-client.open('GET', 'https://api.github.com/repos/vixandrade/vixandrade.github.io/contents/posts')
+client.open('GET', 'https://api.github.com/repos/tobiwurd/tobiwurd.github.io/contents/posts/en')
 client.send()
