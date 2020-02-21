@@ -623,6 +623,7 @@ a:hover {
 .site-footer {
  padding-top:2rem;
  margin-top:2rem;
+ align-items: center;
  border-top:solid 1px #eff0f1
 }
 @media screen and (min-width: 64em) {
@@ -666,3 +667,8 @@ a:hover {
   .hoverable:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
+
+.language-flag {
+  width: 15px;
+  height: 15px;
+}

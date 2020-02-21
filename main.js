@@ -26,7 +26,7 @@ function addPostToList(file) {
   rawFile.send(null)
 }
 
-function handler () {
+function loadHandler() {
   if (this.status === 200 && this.responseText != null) {
     var posts = JSON.parse(this.responseText)
     posts.forEach(post => {
@@ -37,7 +37,25 @@ function handler () {
   }
 }
 
-var client = new XMLHttpRequest()
-client.onload = handler
-client.open('GET', 'https://api.github.com/repos/tobiwurd/tobiwurd.github.io/contents/posts/en')
-client.send()
+function clearPosts() {
+  document.querySelector('#post-list').innerHTML = ''
+}
+
+function loadPosts(language) {
+  clearPosts()
+  var client = new XMLHttpRequest()
+  client.onload = loadHandler
+  console.log("LANGUAGE:", language)
+  client.open('GET', 'https://api.github.com/repos/tobiwurd/tobiwurd.github.io/contents/posts/' + language)
+  client.send()
+}
+
+var flags = document.querySelectorAll('.language-flag')
+flags.forEach((flag) => {
+  flag.addEventListener('click', (e) => {
+    console.log("CLICK ON", e.target.id)
+    loadPosts(e.target.id)
+  })
+})
+
+loadPosts('en')
