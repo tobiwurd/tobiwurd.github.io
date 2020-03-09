@@ -19,3 +19,7 @@ I found the answer: I'll write because I can and I'll share ideas because I have
 In the words of Francisco D'Anconia: "I can't tell you how thoroughly I appreciate it".
 
 I exist and so does my blog.
+
+
+São Paulo, SP, Brazil
+21 February 2020
