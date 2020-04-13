@@ -11,9 +11,9 @@ I noticed I've been doing this without giving any thought to what I was saying!
 
 Of course, as usual, I went needlessly deep into the idea after realising my lack of over-analysis, trying to figure out the reason why my delusional brain blurts apparent nonsense out of the blue! In this case I believe some sort of logic has been found.
 
-The feeling behind having this writing space comes from the need of expressing ideas without attaching them to "the real world", keeping it such as the often sought "safe place". Coming from me you probably think that I mean it in a bad way, and it is usually nice to push yourself and make an effort to be bolder, smarter or anythinger – as long as you have a clear goal, otherwise you're just getting stressed for no reason! When writing I definitely get stressed for no reason.
+The feeling behind having this writing space comes from the need of expressing ideas without attaching them to "the real world" – hence the pseudonym and the vagueness, keeping the environment such as the often sought "safe place". Coming from me you probably think that I mean it in a bad way, and it is usually in good order to push yourself and make an effort to be bolder, smarter or anythinger – as long as you have a clear goal, otherwise you're just getting stressed for no reason! When writing I'm definitely stressed for no reason.
 
-For now, writing letters is allowing exploration of different perspectives, styles and general storytelling techniques! Exactly what my personal occasion requires.
+For now, writing letters is allowing exploration of different perspectives, styles and general storytelling techniques – with the depth of the study guided by my volatile interests! Exactly what my personal occasion requires.
 
 Building on top of that feeling of freedom, these letters also give me an opportunity to try the hand at fiction! The structure of a regular fictional narrative had too many details that made me want to study the whole history of literature before finally spilling out my thoughts!
 
