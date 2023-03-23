@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <title>tobiwurd | Tobi Wurd</title>
+  <meta property="og:title" content="Tobi Wurd" />
+  <meta property="og:locale" content="en_UK" />
+  <meta name="description" content="Personal thoughts of Tobi Wurd" />
+  <meta property="og:description" content="Personal thoughts of Tobi Wurd" />
+  <link rel="canonical" href="http://tobiwurd.com/" />
+  <meta property="og:url" content="http://tobiwurd.com/" />
+  <meta property="og:site_name" content="tobiwurd" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/10.0.0/markdown-it.min.js"></script>
+</head>
+
+<body>
+  <form method="POST"
+    action="https://script.google.com/macros/s/AKfycbxW-GmNiJWTIekeaCw0vHRmTswVDwBDqh6lFd7mBKuD5gYpzYA0qvGILnJ9FVYIClovbw/exec">
+    <input id="date" name="date" type="text" placeholder="Date" required>
+    <input id="time" name="time" type="text" placeholder="Time" required>
+    <input id="name" name="bottle-name" type="text" placeholder="Name" required>
+    <input id="size" name="bottle-size" type="text" placeholder="Size (ml)" required>
+    <fieldset>
+      <legend>Bottle event:</legend>
+      <div>
+        <input type="radio" id="filled" name="bottle-event" value="filled" />
+        <label for="filled">Filled</label>
+
+        <input type="radio" id="emptied" name="bottle-event" value="emptied" />
+        <label for="emptied">Emptied</label>
+      </div>
+    </fieldset>
+    <button type="submit">Send</button>
+  </form>
+
+  <script>
+    fullDate = new Date();
+    year = fullDate.getFullYear()
+    month = fullDate.getMonth() + 1
+    day = fullDate.getDate()
+    hour = fullDate.getHours()
+    minutes = fullDate.getMinutes()
+    seconds = fullDate.getSeconds()
+
+    function pad(num) {
+      return String(num).padStart(2, '0');
+    }
+
+    window.addEventListener('DOMContentLoaded', (event) => {
+      document.getElementById("date").value = `${year}-${pad(month)}-${pad(day)}`
+      document.getElementById("time").value = `${pad(hour)}:${pad(minutes)}:${pad(seconds)}`
+      document.getElementById("name").value = "Jameson IPA Edition"
+      document.getElementById("size").value = "750"
+    })
+  </script>
+</body>
+
+</html>
